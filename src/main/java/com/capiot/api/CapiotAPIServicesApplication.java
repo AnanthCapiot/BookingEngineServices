@@ -1,12 +1,11 @@
-package com.capiot.logistics.travel;
+package com.capiot.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookingEngineServicesApplication {
-
+public class CapiotAPIServicesApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(BookingEngineServicesApplication.class, args);
+		SpringApplication.run( CapiotAPIServicesApplication.class, args );
 	}
 }

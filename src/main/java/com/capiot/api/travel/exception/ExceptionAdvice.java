@@ -1,4 +1,4 @@
-package com.capiot.logistics.travel.exception;
+package com.capiot.api.travel.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;

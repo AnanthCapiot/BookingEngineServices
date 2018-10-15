@@ -1,9 +1,9 @@
-package com.capiot.logistics.travel.service.impl;
+package com.capiot.api.travel.service.impl;
 
-import com.capiot.logistics.travel.model.AirOrder;
-import com.capiot.logistics.travel.model.Booking;
-import com.capiot.logistics.travel.model.FlightSegment;
-import com.capiot.logistics.travel.service.BookingService;
+import com.capiot.api.travel.model.AirOrder;
+import com.capiot.api.travel.model.Booking;
+import com.capiot.api.travel.model.FlightSegment;
+import com.capiot.api.travel.service.BookingService;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

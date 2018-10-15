@@ -1,4 +1,4 @@
-package com.capiot.logistics.travel.exception;
+package com.capiot.api.travel.exception;
 
 public class BookingNotFoundException extends EntityNotFoundException {
 	

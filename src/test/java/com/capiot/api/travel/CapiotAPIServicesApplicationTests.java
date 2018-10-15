@@ -1,4 +1,4 @@
-package com.capiot.logistics.travel;
+package com.capiot.api.travel;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BookingEngineServicesApplicationTests {
+public class CapiotAPIServicesApplicationTests {
 
 	@Test
 	public void contextLoads() {

@@ -1,6 +1,6 @@
-package com.capiot.logistics.travel.service;
+package com.capiot.api.travel.service;
 
-import com.capiot.logistics.travel.model.Booking;
+import com.capiot.api.travel.model.Booking;
 import java.util.List;
 
 public interface BookingService {

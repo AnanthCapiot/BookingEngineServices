@@ -1,4 +1,4 @@
-package com.capiot.logistics.travel.model;
+package com.capiot.api.travel.model;
 
 import java.math.BigDecimal;
 import java.util.List;

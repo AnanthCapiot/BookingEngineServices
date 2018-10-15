@@ -1,4 +1,4 @@
-package com.capiot.logistics.travel.model;
+package com.capiot.api.travel.model;
 
 public class BasicSearchCriteria {
 	

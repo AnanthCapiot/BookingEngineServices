@@ -1,20 +1,19 @@
-package com.capiot.logistics.travel.controllers;
+package com.capiot.api.travel.controllers;
 
 import java.util.List;
 
-import com.capiot.logistics.travel.service.BookingService;
+import com.capiot.api.travel.service.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.capiot.logistics.travel.model.BasicSearchCriteria;
-import com.capiot.logistics.travel.model.Booking;
+import com.capiot.api.travel.model.BasicSearchCriteria;
+import com.capiot.api.travel.model.Booking;
 
 @RestController
 //@RequestMapping("/bookings")
