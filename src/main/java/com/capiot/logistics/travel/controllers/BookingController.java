@@ -2,6 +2,8 @@ package com.capiot.logistics.travel.controllers;
 
 import java.util.List;
 
+import com.capiot.logistics.travel.service.BookingService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,18 +19,21 @@ import com.capiot.logistics.travel.model.Booking;
 @RestController
 //@RequestMapping("/bookings")
 public class BookingController {
-	
+
+    @Autowired
+	private BookingService bookingService;
+
 	//@GetMapping( value = "/" )
 	@RequestMapping(value = "/bookings", method = RequestMethod.GET)
-	public List<Booking> getAllBookings() {
-		// call getAllBookings() with results count of 10, startIndex of 1
-		return null;
+	public List<Booking> getAllBookings() throws Exception {
+        List<Booking> allBookings = bookingService.getAllBookings();
+		return allBookings;
 	}	
 	
 	//@PostMapping( value = "/" )
 	@RequestMapping(value = "/bookings/search", method = RequestMethod.POST)
 	public List<Booking> getAllBookings( @RequestBody BasicSearchCriteria filter )	{
-		return null;
+	    return null;
 	}
 	
 	@RequestMapping(value = "/bookings", method = RequestMethod.POST) 

@@ -16,12 +16,10 @@ public class Booking {
 	private ZonedDateTime createdDateTime; 
 	
 	public Booking() {}
-	
-	
+
 	public String getBookingID() {
 		return bookingID;
 	}
-
 
 	public void setBookingID(String bookingID) {
 		this.bookingID = bookingID;
